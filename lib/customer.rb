@@ -13,4 +13,7 @@ def self.all
 @@all 
 end 
 
+def new_meal(waiter, total, tip)
+
+
 end 
