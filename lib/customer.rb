@@ -18,6 +18,6 @@ meal = Meal.new(waiter, self, total, tip)
 end 
 
 def meals
-Meals.all.select {|meal| meal.
-
+Meals.all.select {|meal| meal.customer == self}
+end 
 end 
