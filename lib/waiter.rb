@@ -19,5 +19,5 @@ def meals
 end 
 
 def best_tipper
-  meals.max {|meal_a 
+  meals.max {|meal_a, meal_b| meal_a.
 end
