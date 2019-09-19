@@ -22,7 +22,7 @@ Meal.all.select {|meal| meal.customer == self}
 end 
 
 def waiter
-meals.
+meals.map {|meal| meal.
 end 
 
 end 
