@@ -10,4 +10,8 @@ def self.all
   @@all
 end 
 
+def new_meal
+  meal = Meal.new()
+end 
+
 end
