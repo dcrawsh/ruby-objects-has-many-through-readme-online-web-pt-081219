@@ -18,4 +18,6 @@ def meals
   Meal.all.select {|meal| meal.waiter == self}
 end 
 
+def best_tipper
+  meals.max {|meal_a 
 end
